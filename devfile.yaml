@@ -1,0 +1,15 @@
+schemaVersion: 2.1.0
+metadata:
+  generateName: ansible-devfile
+  version: 2.0.0
+projects:
+  - name: ansible-devfile
+    git:
+      remotes:
+        origin: "https://github.com/pharriso/ansible_devfile"
+      checkoutFrom:
+        revision: main
+components:
+   - name: ansible-tools
+     container:
+       image: quay.io/ansible/creator-ee:latest
