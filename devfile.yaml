@@ -6,7 +6,7 @@ projects:
   - name: ansible_devfile
     git:
       remotes:
-        origin: "https://github.com/pharriso/ansible_devspaces"
+        origin: "https://github.com/pharriso/ansible_devspaces.git"
       checkoutFrom:
         revision: main
 components:
